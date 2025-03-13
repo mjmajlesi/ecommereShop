@@ -11,7 +11,7 @@ function Categorys() {
           <h1 className="text-3xl font-semibold">Category</h1>
           <Link href={""} className="text-base">Show all</Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 lg:grid-cols-3 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 lg:grid-cols-3 px-4 mt-12">
           {Dcategory.map((item) => (
             <Category key={item.id} image={item.image} name={item.name} />
           ))}
