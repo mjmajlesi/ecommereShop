@@ -1,9 +1,14 @@
 import React from "react";
-import { Dcategory } from "../Database/Category";
-import Category from "./Category";
+import Category, { Icategory } from "./Category";
 import Container from "./Container";
 import Link from "next/link";
-function Categorys() {
+
+async function Categorys() {
+
+  const cfetch = await fetch("http://localhost:3001/products")
+  const category = await cfetch.json() as Icategory[];
+  const idforhome = [1 , 2 , 3 , 4 , 7 , 6];
+
   return (
     <Container>
       <div className="my-20">
@@ -12,8 +17,9 @@ function Categorys() {
           <Link href={""} className="text-base">Show all</Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 lg:grid-cols-3 px-4 mt-12">
-          {Dcategory.map((item) => (
-            <Category key={item.id} image={item.image} name={item.name} />
+          {category.map((item) => (
+            idforhome.find(id => id == item.id) &&
+            <Category key={item.id} {...item}  />
           ))}
         </div>
       </div>
