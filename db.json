@@ -1,0 +1,50 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "name": "Laptops",
+            "image": "/images/laptop.svg"
+          },
+          {
+            "id": 2,
+            "name": "Camera & Photos",
+            "image": "/images/camera.svg"
+          },
+          {
+            "id": 3,
+            "name": "MobilePhones",
+            "image": "/images/smartphone.svg"
+          },
+          {
+            "id": 4,
+            "name": "SmartWatchs",
+            "image": "/images/smartwatch.svg"
+          },
+          {
+            "id": 5,
+            "name": "Headphones",
+            "image": "/images/headphones.svg"
+          },
+          {
+            "id": 6,
+            "name": "GameConsoles & Devices",
+            "image": "/images/gamepad.svg"
+          },
+          {
+            "id": 7,
+            "name": "Computer devices",
+            "image": "/images/computer.svg"
+          },
+          {
+            "id": 8,
+            "name": "FlashDrives",
+            "image": "/images/flash drive.svg"
+          },
+          {
+            "id": 9,
+            "name": "Tablet & e-bookReaders",
+            "image": "/images/tablet.svg"
+          }
+    ] 
+    
+}
