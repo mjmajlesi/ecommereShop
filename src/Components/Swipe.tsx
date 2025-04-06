@@ -29,7 +29,7 @@ function Swipe() {
         {
             imagesforswaper.map((image , index) => (
                 <SwiperSlide key={index}>
-                    <Image src={image.src} alt={image.alt} className="w-full" />
+                    <Image src={image.src} alt={image.alt} className="w-full h-full" />
                 </SwiperSlide>
             ))
         }

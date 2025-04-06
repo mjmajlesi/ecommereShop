@@ -18,12 +18,13 @@ async function Store() {
             <span className="font-semibold text-4xl p-3 mb-4 ">Brands</span>
             <div className="grid grid-cols-7 gap-10">
               {imageBrands.map((brand, index) => (
-                <Image
-                  key={index}
-                  src={brand.src}
-                  alt={brand.alt}
-                  className="w-[140px]"
-                />
+                <div className="transition-all duration-300 hover:scale-110" key={index}>
+                  <Image
+                    src={brand.src}
+                    alt={brand.alt}
+                    className="w-[140px]"
+                  />
+                </div>
               ))}
             </div>
           </div>
