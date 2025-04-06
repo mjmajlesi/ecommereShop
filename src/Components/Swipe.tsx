@@ -9,6 +9,7 @@ import Image from "next/image";
 import { imagesforswaper } from "../../lib/image";
 
 function Swipe() {
+
   return (
     <Swiper
       spaceBetween={30}
@@ -24,12 +25,12 @@ function Swipe() {
       navigation={false}
       effect={'fade'}
       modules={[Autoplay, Pagination, Navigation , EffectFade]}
-      className="w-full rounded-lg h-[300px]"
+      className="w-full rounded-lg "
     >
         {
             imagesforswaper.map((image , index) => (
                 <SwiperSlide key={index}>
-                    <Image src={image.src} alt={image.alt} className="w-full h-full" />
+                    <Image src={image.src} alt={image.alt} className="w-full h-full not-md:object-contain " />
                 </SwiperSlide>
             ))
         }

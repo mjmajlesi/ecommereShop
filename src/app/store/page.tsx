@@ -16,7 +16,7 @@ async function Store() {
           <Swipe />
           <div className="flex flex-col items-center justify-center my-8">
             <span className="font-semibold text-4xl p-3 mb-4 ">Brands</span>
-            <div className="grid grid-cols-7 gap-10">
+            <div className="flex flex-wrap items-center justify-center gap-10">
               {imageBrands.map((brand, index) => (
                 <div className="transition-all duration-300 hover:scale-110" key={index}>
                   <Image
@@ -30,7 +30,7 @@ async function Store() {
           </div>
           <div className="flex flex-col items-center justify-center my-8">
             <span className="font-semibold text-4xl p-3 mb-4 ">Category</span>
-            <div className="grid grid-cols-5 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
               {category.map((items) => (
                 <Category key={items.id} {...items} />
               ))}
