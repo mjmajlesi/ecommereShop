@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import {Poppins} from "next/font/google";
+import { ShopingCartContextPro } from "@/Context/ShopingCartContext";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -24,9 +25,11 @@ export default function RootLayout({
       <body
       className={`${poppins.className}`}
       >
+        <ShopingCartContextPro>
         <Navbar />
         {children}
         <Footer />
+        </ShopingCartContextPro>
       </body>
     </html>
   );

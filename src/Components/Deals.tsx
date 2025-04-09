@@ -1,5 +1,5 @@
 import React from "react";
-import Off from "../../public/images/image-4.svg";
+import Off from "../../public/images/Category/image-4.svg";
 import Image from "next/image";
 import DealsTimer from "./DealsTimer";
 function Deals() {

@@ -6,12 +6,12 @@ function CartPage() {
   return (
     <div>
       <Container>
-        <div className='bg-slate-100 rounded-2xl grid grid-cols-12 gap-8'>
-          <div className='col-span-6 rounded-2xl'>
-            <Image className='h-full w-full' src={example} alt="images" />
+        <div className='rounded-2xl flex flex-wrap items-center justify-center  gap-8'>
+          <div className='rounded-2xl'>
+            <Image className='w-full h-full' src={example} alt="images" />
           </div>
-          <div className='col-span-6 rounded-2xl'>
-            <Image className='h-full w-full' src={example} alt="images" />
+          <div className='rounded-2xl'>
+            <Image className='w-full h-full' src={example} alt="images" />
           </div>
         </div>
       </Container>
