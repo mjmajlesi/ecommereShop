@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 function Footer() {
   return (
     <div className="w-full bg-[#292927] text-white p-4 px-6 mt-12 flex items-center justify-between ">
-      <span className="font-semibold ">
-        © 2024 Copyright: Mohammad Javad Majlesi
+      <span className="text-sm md:text-base md:font-semibold">
+        © 2024 Copyright: MohammadJavad Majlesi
       </span>
       <div className="flex items-center gap-3">
         <a href="https://github.com/mjmajlesi" target="_blank">

@@ -35,7 +35,7 @@ function Navbar() {
                 <li key={nav.name}>
                   <Link
                     href={nav.href}
-                    className={`hover:text-gray-500 ${
+                    className={`hover:text-gray-500 text-sm md:text-base ${
                       pathname === nav.href && "text-[#b8b8b8]"
                     }`}
                   >
@@ -45,10 +45,15 @@ function Navbar() {
               ))}
             </ul>
           </div>
-          <div>
-            <button className="bg-[#272729] text-white px-4 py-2 rounded-md">
-              <Link href="/login">Login</Link>
+          <div className="flex items-center gap-3">
+            <div>
+                <Link className="text-sm md:text-base" href={"/Cart"}>Cart</Link>
+            </div>
+            <div>
+            <button className="bg-[#272729] text-white p-2 md:px-4  md:py-2 rounded-md">
+              <Link className="text-sm md:text-base" href="/login">Login</Link>
             </button>
+            </div>
           </div>
         </div>
       </Container>
