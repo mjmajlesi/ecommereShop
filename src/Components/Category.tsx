@@ -2,10 +2,18 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+export interface Iprodect {
+  id: number;
+  image: string;
+  name: string;
+  price : number;
+}
+
 export interface Icategory {
   id: number;
   image: string;
   name: string;
+  prodect : Iprodect[];
 }
 
 function Category({ image, name , id }: Icategory) {
