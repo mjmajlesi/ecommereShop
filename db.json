@@ -1,50 +1,137 @@
 {
-    "products" : [
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptops",
+      "image": "/images/Category/laptop.svg",
+      "prodect" : [
         {
-            "id": 1,
-            "name": "Laptops",
-            "image": "/images/laptop.svg"
-          },
-          {
-            "id": 2,
-            "name": "Camera & Photos",
-            "image": "/images/camera.svg"
-          },
-          {
-            "id": 3,
-            "name": "MobilePhones",
-            "image": "/images/smartphone.svg"
-          },
-          {
-            "id": 4,
-            "name": "SmartWatchs",
-            "image": "/images/smartwatch.svg"
-          },
-          {
-            "id": 5,
-            "name": "Headphones",
-            "image": "/images/headphones.svg"
-          },
-          {
-            "id": 6,
-            "name": "GameConsoles & Devices",
-            "image": "/images/gamepad.svg"
-          },
-          {
-            "id": 7,
-            "name": "Computer devices",
-            "image": "/images/computer.svg"
-          },
-          {
-            "id": 8,
-            "name": "FlashDrives",
-            "image": "/images/flash drive.svg"
-          },
-          {
-            "id": 9,
-            "name": "Tablet & e-bookReaders",
-            "image": "/images/tablet.svg"
-          }
-    ] 
-    
+          "id": 1,
+          "name": "macbook Air 2025 15-inch M4 chip",
+          "price": 1345,
+          "image": "https://i.postimg.cc/QMT8FBXT/macbook.jpg"
+        },
+        {
+          "id": 2,
+          "name": "macbook Air 2025 15-inch M4 chip",
+          "price": 1325,
+          "image": "https://i.postimg.cc/63tkBTTw/macbook1.jpg"
+        },
+        {
+          "id": 3,
+          "name": "macbook Pro 2025 15-inch M4 chip",
+          "price": 1300,
+          "image": "https://i.postimg.cc/J0dv3qx4/macbook2.jpg"
+        },
+        {
+          "id": 4,
+          "name": "macbook Air 2025 15-inch M4 chip",
+          "price": 1457,
+          "image": "https://i.postimg.cc/66HkNWKJ/macbook3.jpg"
+        },
+        {
+          "id": 5,
+          "name": "macbook Pro 2025 15-inch M3 chip",
+          "price": 1290,
+          "image": "https://i.postimg.cc/KvwCR040/macbook4.jpg"
+        },
+        {
+          "id": 6,
+          "name": "macbook Pro 2024 15-inch M4 chip",
+          "price": 1490,
+          "image": "https://i.postimg.cc/sDvtjkfB/macbook5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Camera & Photos",
+      "image": "/images/Category/camera.svg"
+    },
+    {
+      "id": 3,
+      "name": "MobilePhones",
+      "image": "/images/Category/smartphone.svg",
+      "prodect" : [
+        {
+          "id": 1,
+          "name": "Iphone16 64GB 5G Black",
+          "price": 650,
+          "image": "https://i.postimg.cc/SN4brTmj/Iphone16.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Iphone 16e 128GB 5G White",
+          "price": 525,
+          "image": "https://i.postimg.cc/R0NkF2Lp/16e.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Iphone 15 128GB 5G Pink",
+          "price": 510,
+          "image": "https://i.postimg.cc/MpG4PgNZ/15.png"
+        },
+        {
+          "id": 4,
+          "name": "Samsung Galexy Zfold6 128GB 5G",
+          "price": 360,
+          "image": "https://i.postimg.cc/d0NTRZdt/zfold6.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Samsung Galexy A04s 64GB 4G",
+          "price": 87,
+          "image": "https://i.postimg.cc/kG1NBYcw/A04s.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Samsung Galexy S25 256GB 5G Blue",
+          "price": 890,
+          "image": "https://i.postimg.cc/1XktCp5s/s25.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Samsung Galexy A56 128GB 5G",
+          "price": 490,
+          "image": "https://i.postimg.cc/cJxJb1Zg/A56.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Samsung Galexy S25 Ultra 256GB 5G",
+          "price": 1290,
+          "image": "https://i.postimg.cc/7PGSV9Kv/S25O.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SmartWatchs",
+      "image": "/images/Category/smartwatch.svg"
+    },
+    {
+      "id": 5,
+      "name": "Headphones",
+      "image": "/images/Category/headphones.svg"
+    },
+    {
+      "id": 6,
+      "name": "GameConsoles & Devices",
+      "image": "/images/Category/gamepad.svg"
+    },
+    {
+      "id": 7,
+      "name": "Computer devices",
+      "image": "/images/Category/computer.svg"
+    },
+    {
+      "id": 8,
+      "name": "FlashDrives",
+      "image": "/images/Category/flash drive.svg"
+    },
+    {
+      "id": 9,
+      "name": "Tablet & e-bookReaders",
+      "image": "/images/Category/tablet.svg"
+    }
+  ]
 }
